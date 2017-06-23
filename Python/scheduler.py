@@ -9,7 +9,7 @@ class Room:
 		self.id = id
 		self.status_dict = dict()
 
-		#for each duration, set the room available
+		#for each duration, set the room as available
 
 		for duration in durations_list:
 			self.status_dict[duration] = False
@@ -19,7 +19,7 @@ class Interviewer:
 		self.id = id
 		self.status_dict = dict()
 
-		#for each duration, set the interviewer available
+		#for each duration, set the interviewer as available
 		for duration in durations_list:
 			self.status_dict[duration] = False
 
